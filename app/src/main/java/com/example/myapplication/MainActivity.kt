@@ -68,20 +68,20 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen()
+//                    MainScreen()
                 }
             }
         }
     }
 }
 
-@Composable
-fun MainScreen() {
-    val constraints = myConstraintSet(8.dp)
-    ConstraintLayout(constraints, Modifier.size(width = 200.dp, height = 200.dp)) {
-        MyButton(text = "Button1", Modifier.size(200.dp).layoutId("button1"))
-    }
-}
+//@Composable
+//fun MainScreen() {
+//    val constraints = myConstraintSet(8.dp)
+//    ConstraintLayout(constraints, Modifier.size(width = 200.dp, height = 200.dp)) {
+//        MyButton(text = "Button1", Modifier.size(200.dp).layoutId("button1"))
+//    }
+//}
 
 @Composable
 fun MyButton(text: String, modifier: Modifier = Modifier) {
@@ -109,8 +109,8 @@ private fun myConstraintSet(margin: Dp): ConstraintSet {
     }
 }
 
-@Preview
-@Composable
-fun preview() {
-    MainScreen()
-}
+//@Preview
+//@Composable
+//fun preview() {
+//    MainScreen()
+//}
