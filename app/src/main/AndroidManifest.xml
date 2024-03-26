@@ -13,11 +13,15 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ListDemoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_list_demo"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
             android:name=".LazyListActivity"
             android:exported="true"
             android:label="@string/title_activity_lazy_list"
-            android:theme="@style/Theme.MyApplication" >
-
+            android:theme="@style/Theme.MyApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,14 +32,12 @@
             android:name=".CoroutineActivity"
             android:exported="true"
             android:label="@string/title_activity_coroutine"
-            android:theme="@style/Theme.MyApplication">
-
-        </activity>
+            android:theme="@style/Theme.MyApplication"></activity>
         <activity
             android:name=".IntrinsicSizeDemoActivity"
             android:exported="true"
             android:label="@string/title_activity_intrinsic_size_demo"
-            android:theme="@style/Theme.MyApplication"></activity>
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
