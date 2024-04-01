@@ -15,23 +15,30 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".IntroductionViewModelActivity"
+            android:name=".ViewModelDemoActivity"
             android:exported="true"
-            android:label="@string/title_activity_introduction_view_model"
-            android:theme="@style/Theme.MyApplication" >
+            android:label="@string/title_activity_view_model_demo"
+            android:theme="@style/Theme.MyApplication">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".IntroductionViewModelActivity"
+            android:exported="true"
+            android:label="@string/title_activity_introduction_view_model"
+            android:theme="@style/Theme.MyApplication">
+
         </activity>
         <activity
             android:name=".LazyListDemo"
             android:exported="true"
             android:label="@string/title_activity_lazy_list_demo"
-            android:theme="@style/Theme.MyApplication">
-
-        </activity>
+            android:theme="@style/Theme.MyApplication"></activity>
         <activity
             android:name=".ListDemoActivity"
             android:exported="false"
@@ -41,7 +48,7 @@
             android:name=".LazyListActivity"
             android:exported="true"
             android:label="@string/title_activity_lazy_list"
-            android:theme="@style/Theme.MyApplication"/>
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".CoroutineActivity"
             android:exported="true"

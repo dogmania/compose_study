@@ -6,4 +6,5 @@
     <string name="title_activity_list_demo">ListDemoActivity</string>
     <string name="title_activity_lazy_list_demo">LazyListDemo</string>
     <string name="title_activity_introduction_view_model">IntroductionViewModelActivity</string>
+    <string name="title_activity_view_model_demo">ViewModelDemoActivity</string>
 </resources>
