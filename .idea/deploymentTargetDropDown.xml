@@ -2,13 +2,13 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="IntrinsicSizeDemoActivity">
-        <State />
-      </entry>
       <entry key="LazyListActivity">
         <State />
       </entry>
       <entry key="LazyListDemo">
+        <State />
+      </entry>
+      <entry key="MainActivity">
         <State />
       </entry>
       <entry key="RoomDemoActivity">
