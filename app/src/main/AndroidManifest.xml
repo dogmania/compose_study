@@ -15,10 +15,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".gesturedemo.MainActivity"
+            android:name=".swipedemo.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.MyApplication" >
+            android:theme="@style/Theme.MyApplication">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,17 +28,22 @@
 
         </activity>
         <activity
-            android:name=".bottombardemo.MainActivity"
+            android:name=".gesturedemo.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.MyApplication">
 
         </activity>
         <activity
-            android:name=".navigationdemo.MainActivity"
+            android:name=".bottombardemo.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.MyApplication"></activity>
+        <activity
+            android:name=".navigationdemo.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.MyApplication" />
         <activity
             android:name=".roomdemo.RoomDemoActivity"
             android:exported="true"
